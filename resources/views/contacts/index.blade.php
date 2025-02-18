@@ -55,16 +55,7 @@
             text-align: center;
             transition: background-color 0.3s ease;
         }
-        a {
-            text-align: center;
-            display: block;
-            color: #007bff;
-            text-decoration: none;
-            margin-top: 15px;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+  
         .back-button {
             display: block;
             text-align: center;

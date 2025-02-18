@@ -13,6 +13,8 @@ Route::delete('/contacts/{contact}', [ContactController::class, 'destroy'])->nam
 Route::get('contacts/import', [ContactController::class, 'importForm'])->name('contacts.importForm');
 Route::post('contacts/import', [ContactController::class, 'importXml'])->name('contacts.import');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', [ContactController::class, 'index']);
